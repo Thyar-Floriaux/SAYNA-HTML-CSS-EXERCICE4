@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@font-face {
+    font-family: 'spider';
+    src: url(../far_from_homecoming/Updated.otf);
+}
+:root{
+    --rouge: #B11313;
+    --jaune: #f1c530;
+    --bleu: #114c92;
+    --noir: #000000;
+    --blanc: #ffffff;
+}
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    font-family: 'Montserrat';
+    height: 100vh;
+    color: var(--blanc);
+    overflow-x: hidden;
+}
+header{
+    height: 80px;
+    background: var(--rouge) ;
+    width: 100%;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+nav .nav-logo{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px;
+}
+nav .nav-logo img{
+    margin-left: 30px;
+    top: 0;
+}
+.logo2{
+    height: 20px;
+    width: 20px;
+}
+.logo3{
+    width: 17vw;
+    height: 50px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 5%;
+}
+nav li{
+    margin-inline: 16px;
+    cursor: pointer;
+}
+nav a{
+    text-decoration: none;
+    color: var(--blanc);
+    padding-inline: 40px;
+}
+@media screen and (max-width: 1300px){
+    nav a{
+        display: none;
+    }
+    .logo3{
+        width: 20vw;
+        height: 50px;
+    }
+}
+@media screen and (max-width: 1200px){
+    nav a{
+        display: none;
+    }
+    .logo3{
+        width: 30vw;
+        height: 50px;
+    }
+}
+.font-spid{
+    background-image: url("./Assets/Logo/img1.png");
+    color:#000000;
+    margin-top: 10%;
+    margin-left: 10%;
+
+}
+.v-her{
+    width: 10%;
+    hei.ght
+    border-radius: 20%;
+}
